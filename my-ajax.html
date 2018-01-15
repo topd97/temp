@@ -1,0 +1,46 @@
+<link rel="import" href="../polymer/polymer-element.html">
+<link rel="import" href="bower_components/iron-ajax/iron-ajax.html">
+
+
+<dom-module id="my-ajax">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+
+    <iron-ajax
+        auto
+        url="data.json"
+        handle-as="json"
+        last-response="{{variavel}}"></iron-ajax>
+
+        <div>{{variavel}}</div>
+
+  </template>
+
+  <script>
+    /**
+     * `my-ajax`
+     * 
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class MyAjax extends Polymer.Element {
+      static get is() { return 'my-ajax'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'my-ajax'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(MyAjax.is, MyAjax);
+  </script>
+</dom-module>
