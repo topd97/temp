@@ -1,8 +1,6 @@
-[
-	{"name": "Bob"},
-	{"name": "Renato"},
-	{"name": "Marcio"},
-	{"name": "João"},
-	{"name": "Pedro"},
-	{"name": "Thiago"}
-]
+{
+	"nomes": [{"name": "Bob"},	{"name": "Renato"},	{"name": "Marcio"},	{"name": "João"},{"name": "Pedro"},	{"name": "Thiago"}],
+	"dados": "header do report"
+}
+
+
