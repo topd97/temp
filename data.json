@@ -1,6 +1,6 @@
 {
-	"nomes": [{"name": "Bob"},	{"name": "Renato"},	{"name": "Marcio"},	{"name": "João"},{"name": "Pedro"},	{"name": "Thiago"}],
-	"dados": "header do report"
+	"date": ["1","2","3","4","5","6","7","8","9"],
+	"valor": ["50","64","35","156","98","4","26","35","68"]
 }
 
 
